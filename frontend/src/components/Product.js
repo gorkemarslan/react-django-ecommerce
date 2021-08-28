@@ -12,12 +12,12 @@ function Product({product}) {
             <Card.Body>
                 <Link to={`/product/${product.id}`}>
                     <Card.Title as="div">
-                        <strong>{product.name}</strong>
+                        <strong style={{color: "black"}} >{product.name}</strong>
                     </Card.Title>
                 </Link>
                 <Card.Text as="div">
                     <div className="my-3" style={{display: "inline-block"}}>
-                        <StarRating star={product.rating} totalReviews={product.totalReviews} /> 
+                        <StarRating star={product.rating} totalReviews={product.total_reviews} /> 
                     </div>
                 </Card.Text>
                 <Card.Text as="h3">
