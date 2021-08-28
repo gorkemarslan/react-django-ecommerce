@@ -5,7 +5,7 @@ import * as productReducers from "./reducers/productReducers";
 
 const reducer = combineReducers({
   productList: productReducers.productListReducer,
-  productDetails: productReducers.productDetailsReducer,
+  productDetail: productReducers.productDetailReducer,
   /*productDelete: productReducers.productDeleteReducer,
   productCreate: productReducers.productCreateReducer,
   productUpdate: productReducers.productUpdateReducer,
