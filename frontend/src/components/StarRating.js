@@ -54,7 +54,7 @@ function StarRating({ star, totalReviews }) {
                 </i>
             </span>
             <span>
-                {`(${totalReviews})`}
+                {` (${totalReviews})`}
             </span>
         </div>
     )
