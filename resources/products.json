@@ -10,8 +10,8 @@
          "description":"Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
          "price":89.99,
          "rating":4.5,
-         "total_reviews":12,
-         "stock":10
+         "stock":10,
+         "total_reviews":12
       }
    },
    {
@@ -25,8 +25,8 @@
          "description":"Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
          "price":599.99,
          "rating":4.0,
-         "total_reviews":8,
-         "stock":0
+         "stock":0,
+         "total_reviews":8
       }
    },
    {
