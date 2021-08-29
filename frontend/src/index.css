@@ -33,3 +33,12 @@ main {
   color: #20a020;
   background-color: #eeffe0;
 }
+
+.cart-badge {
+  background-color: #f02020;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
+}

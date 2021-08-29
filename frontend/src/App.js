@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import ProductDetail from './components/ProductDetail';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Container className="py-3">
           <Route exact path="/" component={Home} />
           <Route path="/product/:id" component={ProductDetail} />
+          <Route path="/cart/:id?" component={Cart} />
         </Container>
       </main>
       <Footer />
