@@ -2,6 +2,13 @@ main {
   min-height: 80vh;
 }
 
+.product-name,
+.product-name:hover, 
+.product-name:focus{
+  color: black;
+  text-decoration: none;
+}
+
 .star-rating span i{
   color: #f1c40f;
   margin: 0.1rem;

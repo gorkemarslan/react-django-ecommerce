@@ -4,17 +4,17 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useDispatch, useSelector } from 'react-redux';
 
 function Header() {
-  const { cartItems } = useSelector(state => state.cart)
+  const { cartItems } = useSelector(state => state.cart);
+  const {user} = useSelector(state => state.cart);
   return (
-    <header>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand>Django-React Shop</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <LinkContainer to="/cart">
                 <Nav.Link>
                   <i className="fas fa-shopping-cart"></i>Cart
@@ -32,7 +32,6 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </header>
   );
 }
 
