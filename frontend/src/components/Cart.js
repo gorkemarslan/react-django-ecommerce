@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col, ListGroup, Image, Form, Button, Card } from 'react-bootstrap'
-import LoadingBox from './LoadingBox';
 import MessageBox from './MessageBox';
 import { addToCart, removeFromCart } from '../actions/cartActions'
 
@@ -41,7 +40,7 @@ function Cart(props) {
                                         <Image src={item.image} alt={item.name} fluid rounded />
                                     </Col>
                                     <Col md={3}>
-                                        <Link to={`/product/${item.product}`}>{item.name}</Link>
+                                        <Link to={`/product/${item.product}`} style={{color: "black"}}>{item.name}</Link>
                                     </Col>
 
                                     <Col md={2}>

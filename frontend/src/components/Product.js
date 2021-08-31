@@ -10,9 +10,9 @@ function Product({product}) {
                 <Card.Img src={product.image} />
             </Link>
             <Card.Body>
-                <Link to={`/product/${product.id}`}>
+                <Link to={`/product/${product.id}`} className="product-name">
                     <Card.Title as="div">
-                        <strong style={{color: "black"}} >{product.name}</strong>
+                        <strong>{product.name}</strong>
                     </Card.Title>
                 </Link>
                 <Card.Text as="div">
