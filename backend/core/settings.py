@@ -58,6 +58,7 @@ INSTALLED_APPS = [
 
     # Locals
     'shop_api.apps.ShopApiConfig',
+    'authentication.apps.AuthenticationConfig',
 ]
 
 MIDDLEWARE = [
